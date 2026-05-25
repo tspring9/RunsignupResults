@@ -377,7 +377,7 @@ if run_all:
         "api_secret": API_SECRET,
         "event_id": event_id,
         "page": page,
-        "results_per_page": results_per_page,
+        "num_per_page": results_per_page,
     }
 
     diagnostics.append(
@@ -400,7 +400,7 @@ if run_all:
                 "api_secret": API_SECRET,
                 "modified_after_timestamp": modified_after,
                 "page": page,
-                "results_per_page": results_per_page,
+                "num_per_page": results_per_page,
             },
         )
     )
